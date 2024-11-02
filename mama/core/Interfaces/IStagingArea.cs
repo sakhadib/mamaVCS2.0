@@ -2,5 +2,5 @@
 
 public interface IStagingArea
 {
-    
+    void StageFiles(string path);
 }
