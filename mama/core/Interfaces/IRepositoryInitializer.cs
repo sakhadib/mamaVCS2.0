@@ -2,5 +2,5 @@
 
 public interface IRepositoryInitializer
 {
-    
+    void InitializeRepository();
 }
