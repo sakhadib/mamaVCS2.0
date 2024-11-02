@@ -2,5 +2,5 @@
 
 public interface ICommitManager
 {
-    
+    void Commit(string message);
 }

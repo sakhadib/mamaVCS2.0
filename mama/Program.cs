@@ -12,7 +12,7 @@ class Program
         {
             try
             {
-                ICommand command = CommandFactory.CreateCommand(args[0]);
+                ICommand command = CommandFactory.CreateCommand(args);
                 command.Execute();
             }
             catch (Exception e)
